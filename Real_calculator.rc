@@ -1,0 +1,195 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Real_calculator.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Real_calculator.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_REAL_CALCULATOR_DIALOG DIALOGEX 0, 0, 320, 360
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "计算器"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "1",IDC_Num1,21,138,50,14
+    PUSHBUTTON      "2",IDC_Num2,87,138,50,14
+    PUSHBUTTON      "3",IDC_Num3,157,138,50,14
+    PUSHBUTTON      "4",IDC_Num4,21,167,50,14
+    PUSHBUTTON      "5",IDC_Num5,87,168,50,14
+    PUSHBUTTON      "6",IDC_Num6,156,168,50,14
+    PUSHBUTTON      "7",IDC_Num7,21,201,50,14
+    PUSHBUTTON      "8",IDC_Num8,87,201,50,14
+    PUSHBUTTON      "9",IDC_Num9,156,200,50,14
+    PUSHBUTTON      "0",IDC_Num0,21,233,50,14
+    PUSHBUTTON      "+",IDC_ADD,21,269,50,14
+    PUSHBUTTON      "-",IDC_SUB,88,269,50,14
+    EDITTEXT        IDC_DISPLAYEDIT,15,18,292,48,ES_AUTOHSCROLL
+    PUSHBUTTON      "=",IDC_END,21,313,50,14
+    PUSHBUTTON      "*",IDC_MUL,155,269,50,14
+    PUSHBUTTON      "/",IDC_DIV,223,269,50,14
+    EDITTEXT        IDC_OUTEDIT,17,85,160,31,ES_AUTOHSCROLL
+    PUSHBUTTON      "(",IDC_LEFT,250,138,50,14
+    PUSHBUTTON      ")",IDC_RIGHT,249,169,50,14
+    PUSHBUTTON      ".",IDC_FLOAT,86,233,50,14
+    PUSHBUTTON      "<—",IDC_DELETE,155,233,50,14
+    PUSHBUTTON      "AC",IDC_DELALL,223,233,50,14
+    PUSHBUTTON      "退出",IDC_CHANEL,247,325,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Real_calculator Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Real_calculator\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2020\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Real_calculator.EXE\0"
+            VALUE "ProductName", "Real_calculator 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_REAL_CALCULATOR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 353
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Real_calculator.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
