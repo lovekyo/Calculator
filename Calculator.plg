@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Calculator - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Calculator.res" /d "_DEBUG" /d "_AFXDLL" "F:\程序\visual程序\Calculator\Calculator.rc"" 
+Creating temporary file "C:\Users\kyo\AppData\Local\Temp\RSPF707.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Calculator.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"F:\程序\visual程序\Calculator\Calculator.cpp"
+"F:\程序\visual程序\Calculator\CalculatorDlg.cpp"
+"F:\程序\visual程序\Calculator\TipDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\kyo\AppData\Local\Temp\RSPF707.tmp" 
+Creating temporary file "C:\Users\kyo\AppData\Local\Temp\RSPF708.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Calculator.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"F:\程序\visual程序\Calculator\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\kyo\AppData\Local\Temp\RSPF708.tmp" 
+Creating temporary file "C:\Users\kyo\AppData\Local\Temp\RSPF709.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Calculator.pdb" /debug /machine:I386 /out:"Debug/Calculator.exe" /pdbtype:sept 
+".\Debug\Calculator.obj"
+".\Debug\CalculatorDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Calculator.res"
+".\Debug\TipDlg.obj"
+]
+Creating command line "link.exe @C:\Users\kyo\AppData\Local\Temp\RSPF709.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Calculator.cpp
+CalculatorDlg.cpp
+TipDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Calculator.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
